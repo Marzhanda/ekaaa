@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: #db65ac;
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #8d6bd8;
+            color: black;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 30% 70%;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .leftcolumn {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .rightcolumn {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-me img {
+            width: 100%;
+            height: 250px;
+            background-color: grey;
+        }
+
+        .about-me .images img {
+            width: 100%;
+            height: 80px;
+            margin-top: 10px;
+            background-color: grey;
+        }
+
+        .content img {
+            width: 100%;
+            height: 250px;
+            background-color: rgb(125, 159, 238);
+        }
+
+        .footer {
+            background-color: #ddd;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Website</h1>
+        <p>A responsive website created by me.</p>
+    </div>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Link</a>
+        <a href="table.html">Link</a>
+    </div>
+
+    <div class="container">
+        <!-- Left Column -->
+        <div class="leftcolumn">
+            <div class="card about-me">
+                <h2>About Me</h2>
+                <p>Photo of me:</p>
+                <img src="CEPE.jpg" alt="Image">
+                <p>Nama saya Marzhanda Eka Dyanita, 24 Oktober 2024</p>
+                <p><b>More Text</b></p>
+                <p>Saya suka ambil gambar bagian mata saya atau bibir saya. karena saya gak percaya diri kalau foto full muka hehe.</p>
+                <div class="images">
+                    <img src="ccvvvvvvvvv-removebg-preview.png" alt="Image">
+                    <img src="okk.jpg" alt="Image">
+                    <img src="nyuuu.png" alt="Image">
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="rightcolumn">
+            <div class="card content">
+                <h2>TITLE HEADING</h2>
+                <h5>Foto lebaran 2023</h5>
+                <img src="lebaran.jpg" alt="Image">
+                <p>Halooo, ini keluarga kecilku. sederhana tetapi penuh makna buat saya. orang tua dan tante yang sangat aku sayangi. sehat selalu dan terimakasih sudah mendukung apapun yang adek lakukan yaa ma, pa, te.</p>
+            </div>
+            <div class="card content">
+                <h2>TITLE HEADING</h2>
+                <h5>Foto lebaran 2024</h5>
+                <img src="keluarga.jpg" alt="Image">
+                <p>Halooooo, ini foto kita setahun setelah foto diatas.. muka kita sudah berubah setahun lebih tua hahaha.. tapi aku tetep sayang merekaaaa xixi</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+
+</body>
+</html>
